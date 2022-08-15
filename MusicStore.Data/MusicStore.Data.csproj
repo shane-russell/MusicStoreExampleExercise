@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MusicStore.AppLogic\MusicStore.AppLogic.csproj" />
+    <ProjectReference Include="..\MusicStore.Domain\MusicStore.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
